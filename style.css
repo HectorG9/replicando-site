@@ -8,25 +8,29 @@ body {
     background-color: #131212;
     font-family: 'Montserrat', sans-serif;
 }
+
 .icone {
     width: 130px;
     height: 130px;
     margin-left: 20px;
 }
 
-nav {
+header {
+    height: 200px;
+    width: 100%;
     display: flex;
-    align-content: end;
-    justify-content: center;
+    align-items: first baseline;
+}
+
+nav {
+    justify-content: space-between;
     width: 100%;
 }
 
 ul {
     display: flex;
     list-style-type: none;
-    gap: 50px;
-    background-image: linear-gradient(to bottom, #131212, #292828);
-    
+    gap: 50px;   
 }
 
 a {
@@ -36,7 +40,6 @@ a {
 }
 
 a:hover {
-    background-color: #292828;
     color: red;
     transition: 0.5s;
     text-decoration: underline;
