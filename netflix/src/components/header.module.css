@@ -1,0 +1,27 @@
+.header {
+    width: 100%;
+    background-color: black;
+    height: 100px;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
+    grid-template-rows: 2fr 2fr 2fr 2fr 2fr 2fr;
+    grid-column-gap: 10px;
+    
+}
+.links {
+    align-content: end;
+    color: var(--white-100);
+    font-size: 32px; 
+}
+.links:hover {
+    color: var(--red-200);
+}
+
+.logo {
+    width: 180px;
+    object-fit: cover;
+    background-color: transparent;
+}
