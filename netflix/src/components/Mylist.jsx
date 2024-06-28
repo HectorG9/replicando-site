@@ -1,8 +1,8 @@
 
 export default function Mylist() {
   return (
-    <div>
+    <section>
       
-    </div>
+    </section>
   )
 }

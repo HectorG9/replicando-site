@@ -1,8 +1,8 @@
 
 export default function Series() {
   return (
-    <div>
-      
-    </div>
+    <section>
+      {/* Adicione os cards das séries */}
+    </section>
   )
 }
