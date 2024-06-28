@@ -37,6 +37,8 @@ export default function Footer() {
         </div>
         <div className={Styles.copy}>
           <span>©1997-2024 Netflix, inc.</span>
+          <span>Todos os direitos reservados.</span><br />
+          <span>Equipe da criação desta réplica:  <br /> <a href="https://github.com/HectorG9" target="_blank">Hector - Main -</a> <br /> <a href="https://github.com/gustaS244" target="_blank">Gusta_s244 - Developer1 -</a>- <br /> <a href="https://github.com/Marzonha" target="_blank">Marlon - Developer2 -</a>  <br /> <a href="https://github.com/LHPS31" target="_blank">Luiz - Developer3 -</a></span>
         </div>
 
       </div>
